@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Setting Text Alignment using CSS</h1>
+    <div class="container1">
+        <h2>This is a heading</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit id repudiandae molestiae. Corporis necessitatibus repellendus tempore quasi, numquam laboriosam sint rerum sequi consectetur aspernatur consequuntur dolorum. Laudantium et soluta voluptatum?</p>
+    </div>
+
+    <h2>Example of CSS center alignment</h2>
+    <div class="container2">
+        This div container is center aligned horizontally.
+    </div>
+
+    <br><br>
+
+    <h1>Aligning Elements Using the position Property</h1>
+    <div class="container3">
+        <p class="up">This paragraph is placed at the top of the document's viewport.</p>
+        <!-- <p class="down">This paragraph is placed at the bottom of the document's viewport.</p> -->
+    </div>
+
+    <br><br>
+    <h1>Left and Right Alignment Using the float Property</h1>
+    <div class="container4">
+        <div class="red">Floated to left.</div>
+        <div class="green">Floated to right.</div>
+    </div>
+    <br><br><br>
+
+    <h1>Fixing the Collapsed Parent</h1>
+
+    <h3>Solution 1: Float the Container</h3>
+
+    <div class="container5">
+        <p class="red1">Floated to Left</p>
+        <p class="green1">Floated to the right</p>
+    </div>
+
+    <br><br><br>
+
+    <h3>Solution 2: Using the Empty Div</h3>
+
+    <div class="container6">
+        <p class="red2">Floated to Left</p>
+        <p class="green2">Floated to the right</p>
+        <div class="clearfix">
+            &nbsp;
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <h3>Solution 3: Using the :after Pseudo-Element</h3>
+
+    <div class="container7 clearfix1">
+        <div class="red3">Floated to Left</div>
+        <div class="green3">Floated to the right</div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+.container1, h2{
+    text-align: center;
+}
+
+.container1, p{
+    text-align: justify;
+    width: 300px;
+}
+
+.container2{
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    background: #ffd99b;
+}
+
+.container3{
+    width: 200px;
+    padding: 10px;
+}
+
+.up{
+    background: #ee665a;
+    position: absolute;
+    top: 0;
+}
+
+.down{
+    background: #b0d878;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.container4{
+    width: 400px;
+    padding: 10px;
+}
+
+.red{
+    float: left;
+    background: #ff0000;
+}
+
+.green{
+    float: right;
+    background: #00ff00;
+}
+
+
+.container5{
+   float: left;
+   background: yellow;
+   border: 1px solid #c4884d;
+}
+
+.container5 p{
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.red1{
+    float: left;
+    background: #ff0000;
+}
+
+.green1{
+    float: right;
+    background: #00ff00;
+}
+
+
+.container6{
+     background: yellow;
+    border: 1px solid #c4884d;
+ }
+ 
+ .container6 p{
+     width: 200px;
+     margin: 10px;
+     padding: 10px;
+ }
+ 
+ .red2{
+     float: left;
+     background: #ff0000;
+ }
+ 
+ .green2{
+     float: right;
+     background: #00ff00;
+ }
+
+ .clearfix{
+    clear: both;
+    visibility: hidden;
+    height: 0;
+ }
+
+ .container7{
+    background: yellow;
+   border: 1px solid #000000;
+}
+
+ .container7 div{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.red3{
+    float: left;
+    background: #ff0000;
+}
+
+.green3{
+    float: right;
+    background: #00ff00;
+}
+
+.clearfix1:after{
+   clear: both;
+   visibility: hidden;
+   height: 0;
+   content: ",";
+   display: block;
+}
